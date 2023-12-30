@@ -8,14 +8,44 @@ body {
     background-size: 60%;
 }
 
-.button {
-    background-color: white;
+.enter {
+    background-color: #a5a5a5;
     color: black;
-    font-size: 36px;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Impact;
 }
 
-.button:hover {
-    background-color: darkgray;
+.enter:hover {
+    background-color: #2e2e2e;
+    color: white;
+    cursor: pointer;
+}
+
+.top-nav {
+    background-color: #2e2e2e;
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Impact;
+    color: white;
+}
+
+.top-nav a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.top-nav a.active {
+    background-color: #0f0f0f;
+    color: white;
 }
 
 .coverart {
@@ -28,21 +58,6 @@ body {
     margin-top: 15em;
     margin-bottom: 1em;
     text-align: center;
-}
-
-.cake {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-    margin-top: 150px;
-    scale: 200%;
-}
-
-.center {
-    margin: auto;
-    width: max-content;
 }
 
 .kiraTitle {
@@ -70,7 +85,28 @@ body {
     text-shadow: 10px 5px 5px black;
 }
 
-.misameme {
+.entrance-img {
     margin-top: 2em;
     text-align: center;
+}
+
+.cameras {
+    margin-top: 10em;
+}
+
+.notebook-section {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.paper {
+    max-width: 40%;
+    height: auto;
+}
+
+.names {
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }

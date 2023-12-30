@@ -5,15 +5,18 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
+        <nav class="top-nav">
+            <a onclick="window.location.href = 'index.html'">Home</a>
+            <a onclick="window.location.href = 'entrance.html'">Entrance</a>
+            <a class="active" onClick="window.location.href = 'video.html'">Videos</a>
+            <a onclick="window.location.href = 'art.html'">Art</a>
+            <a onclick="window.location.href = 'notebook.html'">Notebook</a>
+        </nav>
         <!-- Videos to play -->
         <div class="video">
             <video width="auto" height="auto" controls>
                 <source src="potato.mp4" type="video/mp4">
             </video> 
         </div>
-        <!-- Back navigation buttons-->
-        <nav style="text-align: center;">
-            <button class="button" style="margin-top: 3em; padding: 4px 8px;" onclick="window.location.href = 'misa.html'">BACK</button>
-        </nav>
     </body>
 </html>
