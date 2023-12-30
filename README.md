@@ -1,2 +1,2 @@
 # SaviorKira
-Savior Kira Website
+Savior Kira Website. Made as a fan website of the series Death Note
