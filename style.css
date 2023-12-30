@@ -7,3 +7,70 @@ body {
     background-position-y: 100px;
     background-size: 60%;
 }
+
+.button {
+    background-color: white;
+    color: black;
+    font-size: 36px;
+}
+
+.button:hover {
+    background-color: darkgray;
+}
+
+.coverart {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+}
+
+.video {
+    margin-top: 15em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.cake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 150px;
+    scale: 200%;
+}
+
+.center {
+    margin: auto;
+    width: max-content;
+}
+
+.kiraTitle {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 225px;
+    text-shadow: 10px 5px 5px black;
+    margin-bottom: 0%;
+}
+
+.kiraP {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 10px 5px 5px black;
+    margin-bottom: 0em;
+}
+
+.kiraLastP {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 10px 5px 5px black;
+}
+
+.misameme {
+    margin-top: 2em;
+    text-align: center;
+}
