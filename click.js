@@ -1,24 +1,21 @@
 function clicked(classClicked)
 {
-    //optimize with a switch case
-    if (classClicked == 'index')
+    switch(classClicked)
     {
-        window.location.href = 'index.html'
-    }
-    else if (classClicked == 'entrance')
-    {
-        window.location.href = 'entrance.html'
-    }
-    else if (classClicked == 'video')
-    {
-        window.location.href = 'video.html'
-    }
-    else if (classClicked == 'art')
-    {
-        window.location.href = 'art.html'
-    }
-    else if (classClicked == 'notebook')
-    {
-        window.location.href = 'notebook.html'
+        case 'index':
+            window.location.href = 'index.html';
+            break;
+        case 'entrance':
+            window.location.href = 'entrance.html';
+            break;
+        case 'video':
+            window.location.href = 'video.html';
+            break;
+        case 'art':
+            window.location.href = 'art.html';
+            break;
+        case 'notebook':
+            window.location.href = 'notebook.html';
+            break;
     }
 }
