@@ -1,5 +1,6 @@
 function clicked(classClicked)
 {
+    //optimize with a switch case
     if (classClicked == 'index')
     {
         window.location.href = 'index.html'
